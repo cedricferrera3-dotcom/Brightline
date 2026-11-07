@@ -1,0 +1,19 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 100%; }
+body { margin: 0; font-family: var(--font-body); font-size: var(--text-body); line-height: 1.55; color: var(--neutral-900); background: var(--neutral-100); }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; margin: 0 0 var(--space-3); color: var(--neutral-900); }
+h1 { font-size: var(--text-h1); }
+h2 { font-size: var(--text-h2); }
+h3 { font-size: var(--text-h3); }
+p { margin: 0 0 var(--space-3); }
+a { color: var(--color-primary-500); }
+img { display: block; max-width: 100%; height: auto; }
+ul { padding: 0; margin: 0; list-style: none; }
+:focus-visible { outline: 3px solid var(--color-secondary-500); outline-offset: 2px; }
+.skip-link { position: absolute; left: -999px; top: 0; background: var(--neutral-900); color: #fff; padding: var(--space-3); z-index: 100; }
+.skip-link:focus { left: 0; }
+.container { width: min(100% - 2rem, 72rem); margin-inline: auto; }
+.narrow { max-width: 40rem; }
+.section { padding-block: var(--space-6); }
+.muted { color: var(--neutral-600); font-size: var(--text-caption); margin: 0 0 var(--space-2); }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

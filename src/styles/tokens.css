@@ -1,0 +1,37 @@
+/* Design tokens. Names mirror the Figma styles/variables. */
+:root {
+  /* Color: primary (steel blue), secondary (amber), neutrals 100-900, status */
+  --color-primary-500: #1f5f8b;
+  --color-primary-600: #174c70;
+  --color-primary-100: #e1eef6;
+  --color-secondary-500: #f2a900;
+  --color-secondary-100: #fff1cc;
+  --neutral-100: #f4f7f9;
+  --neutral-200: #e4eaef;
+  --neutral-300: #cdd7de;
+  --neutral-400: #a8b6c1;
+  --neutral-500: #7f95a6;
+  --neutral-600: #5b7080;
+  --neutral-700: #3e505d;
+  --neutral-800: #243441;
+  --neutral-900: #14232e;
+  --color-danger-500: #c0392b;
+  --color-success-500: #1e8a5a;
+
+  /* Typography: Display, Headings, Body, Captions */
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+  --text-display: clamp(2.1rem, 6vw, 3.5rem);
+  --text-h1: clamp(1.75rem, 4vw, 2.5rem);
+  --text-h2: 1.5rem;
+  --text-h3: 1.0625rem;
+  --text-body: 1rem;
+  --text-caption: 0.875rem;
+
+  /* Spacing, radius, elevation */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem;
+  --space-5: 1.5rem; --space-6: 2rem; --space-7: 3rem; --space-8: 4.5rem;
+  --radius-sm: 6px; --radius-md: 10px;
+  --shadow-md: 0 6px 20px rgba(20, 35, 46, 0.12);
+  --tap: 2.75rem; /* 44px minimum target (Fitts's law) */
+}
